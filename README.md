@@ -4,9 +4,19 @@
 
 ## Usage
 
+__As command directly in your terminal:__
+
 ```sh
 docker run --rm muelheimmodular/curl -sSL http://example.com
 ```
+
+__As commandlet in your dockerized environment:__
+
+```sh
+echo 'docker run --rm muelheimmodular/curl $@' > /usr/bin/curl && chmod +x /usr/bin/curl
+```
+
+
 
 ---
 
