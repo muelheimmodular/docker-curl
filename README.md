@@ -3,8 +3,9 @@
 [__curl__](https://curl.se/) - command line tool and library... as docker container!
 
 ## Usage
+
 ```sh
-docker run --rm muelheimmodular/curl
+docker run --rm muelheimmodular/curl -sSL http://example.com
 ```
 
 ---
